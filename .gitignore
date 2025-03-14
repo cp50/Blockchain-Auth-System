@@ -1,0 +1,20 @@
+# Java & Spring Boot
+target/
+*.class
+*.war
+*.jar
+*.log
+!src/main/
+!src/test/
+
+# Node.js & Hardhat (Blockchain)
+node_modules/
+dist/
+.env
+cache/
+artifacts/
+hardhat.config.js
+
+# OS-Specific
+.DS_Store
+Thumbs.db
