@@ -1,12 +1,15 @@
 🚀 Blockchain-Based Secure Authentication System
 
 🔹 Overview
+
 This project is an innovative authentication system that leverages blockchain technology to ensure secure, tamper-proof user authentication. Unlike traditional systems that store credentials in a centralized database, this system registers and authenticates users on the Ethereum blockchain, providing enhanced security and trust.
 
 📌 Why Blockchain?
+
 Traditional authentication systems are prone to data breaches, identity theft, and unauthorized access. Blockchain eliminates these risks by decentralizing and securing authentication using smart contracts.
 
 🔥 Key Features
+
 ✅ Decentralized Authentication: User credentials are stored on Ethereum blockchain, eliminating the risk of centralized breaches.
 ✅ JWT-Based Authentication: Generates JWT tokens for session management after successful authentication.
 ✅ Spring Boot Backend: Uses Spring Boot for API endpoints and Web3j for blockchain interaction.
@@ -14,6 +17,7 @@ Traditional authentication systems are prone to data breaches, identity theft, a
 ✅ Role-Based Access (Future Expansion): Users & Admins with specific permissions.
 
 🛠️ Tech Stack
+
 📌 Backend
 Java (Spring Boot) – REST API, JWT Authentication
 Web3j – Blockchain interaction
@@ -42,7 +46,9 @@ Ganache / Sepolia (Future Expansion) – Public testnet deployment
  ┗ 📜 README.md       # Project documentation
 
  ⚙️ Installation & Setup
+ 
 📌 Prerequisites
+
 JDK 17+
 Node.js & Hardhat
 MongoDB (Optional)
@@ -70,25 +76,31 @@ cd backend
 mvn spring-boot:run
 
 🌍 API Endpoints
+
 Method	Endpoint	Description
+
 POST	/api/blockchain/register	     Register user on blockchain
 POST	/api/blockchain/authenticate	 Authenticate user via blockchain
 GET	/api/blockchain/clientVersion	   Get blockchain client info
 
 🚀 Future Expansions
+
 📌 Deploy on a Public Ethereum Testnet (Goerli, Sepolia)
 📌 Integrate with a Frontend (React, Angular)
 📌 Enhance Role-Based Authentication (User, Admin)
 
 🤝 Contributing
+
 Pull requests are welcome! Fork the repository, make changes, and submit a PR.
 
 🎯 Why This Project is Rare & Innovative?
+
 Very few systems implement user authentication entirely on the blockchain.
 It eliminates centralized credential storage, reducing hacking risks.
 A combination of JWT & Blockchain for secure, tamper-proof login systems.
 Future potential for Decentralized Identity (DID) and Web3 applications.
 
 📜 License
+
 This project is open-source under the MIT License.
 
