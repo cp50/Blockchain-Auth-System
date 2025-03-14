@@ -55,24 +55,35 @@ MongoDB (Optional)
 Metamask (For blockchain transactions)
 
 Step 1️⃣: Clone Repository
+
 git clone https://github.com/your-username/blockchain-auth-system.git
+
 cd blockchain-auth-system
 
 Step 2️⃣: Start Blockchain
+
 cd blockchain
+
 npx hardhat node
 
 Step 3️⃣: Deploy Smart Contract
+
 npx hardhat run scripts/deploy.js --network localhost
+
 Copy the contract address from the terminal.
 
 Step 4️⃣: Configure Backend
+
 Update application.properties with:
+
 blockchain.private-key=0x59c6995e998f97a5a0044966f0945389dc9e86dae88c7a8412f4603b6b78690d
+
 blockchain.contract-address=YOUR_DEPLOYED_CONTRACT_ADDRESS
 
 Step 5️⃣: Run Spring Boot Backend
+
 cd backend
+
 mvn spring-boot:run
 
 🌍 API Endpoints
