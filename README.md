@@ -1,4 +1,5 @@
 🚀 Blockchain-Based Secure Authentication System
+
 🔹 Overview
 This project is an innovative authentication system that leverages blockchain technology to ensure secure, tamper-proof user authentication. Unlike traditional systems that store credentials in a centralized database, this system registers and authenticates users on the Ethereum blockchain, providing enhanced security and trust.
 
